@@ -1,19 +1,19 @@
-# Dependencies
+#Dependencies
 node_modules/
 
-# Environment variables
+#Environment variables
 .env
 .env.*
 !.env.example
 
-# Build
+#Build
 dist/
 build/
 coverage/
 
-# Logs
+#Logs
 *.log
 
-# System files
+#System
 .DS_Store
 Thumbs.db
