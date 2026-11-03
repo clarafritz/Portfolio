@@ -1,1 +1,23 @@
+/* ----------------------------
+index.css -> Styles du portfolio 
+
+==> Charge Tailwind CSS 
+---------------------------- */
 @import "tailwindcss";
+
+
+/* Palette couleurs : Autumn */
+@theme {
+  --color-cream: #F8F4EF;
+  --color-beige: #E8D8CD;
+  --color-terracotta: #C58D7B;
+  --color-taupe: #94765F;
+  --color-espresso: #493A34;
+}
+
+/* ----- */
+body {
+  margin: 0;
+  @apply bg-cream text-espresso;
+  font-family: Arial, sans-serif;
+}
