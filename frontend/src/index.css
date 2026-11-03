@@ -1,9 +1,10 @@
 /* ----------------------------
 index.css -> Styles du portfolio 
 
-==> Charge Tailwind CSS 
+==> Charge Tailwind CSS + Police texte
 ---------------------------- */
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap');
 
 
 /* Palette couleurs : Autumn */
@@ -19,5 +20,5 @@ index.css -> Styles du portfolio
 body {
   margin: 0;
   @apply bg-cream text-espresso;
-  font-family: Arial, sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }

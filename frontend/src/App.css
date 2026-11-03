@@ -32,6 +32,7 @@ App.css -> Styles portfolio
   .hero-title {
     /* 2.5rem : taille minimale / 10vw : taille varie selon écran / 4rem : taille max */
     font-size: clamp(2.5rem, 10vw, 4rem);
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-weight: 600;
     line-height: 1.1;
 
@@ -71,7 +72,7 @@ App.css -> Styles portfolio
 }
 
 
-/* ----------------------------
+/* ---------------------------- */
 /* TABLETTE : à partir de 768px */
 @media (min-width: 768px) {
   .hero {
