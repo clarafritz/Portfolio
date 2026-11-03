@@ -4,8 +4,8 @@ App.jsx -> Composant principal de l'application React
 ==> Affiche les diff parties du portfolio 
 ---------------------------- */
 import './App.css'
-import Navbar from './components/Navbar'
-
+import Navbar from './components/layout/Navbar';
+import About from './components/sections/About/About';
 
 //Fonction : affiche le contenu principal du portfolio 
 //Paramètre : aucun 
@@ -34,6 +34,8 @@ function App() {
           </div>
 
         </section>
+
+        <About />
       </main>
     </>
   )

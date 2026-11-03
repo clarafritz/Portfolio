@@ -4,7 +4,7 @@ Navbar.css -> Styles barre navigation
 ==> Thème : utilise palette couleurs dans index.css
 ==> Responsive : codé en mobile first
 ---------------------------- */
-@reference '../index.css';
+@reference '../../index.css';
 
 /* ----- NAVBAR */
 .navbar {
